@@ -474,6 +474,10 @@ end
 )
 end)
 
+MainSection:NewButton("Custom Duels", "op reach", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/mHr5Vj0k"))()
+end)
+
 -- Player
 
 local Main2 = Window:NewTab("Player")
